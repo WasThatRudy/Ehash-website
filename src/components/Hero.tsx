@@ -11,15 +11,6 @@ const Hero = () => {
       <TechReferencesBg opacity={0.1} size={40} />
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div>
-          <motion.span
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="inline-block mb-4 px-3 py-1 rounded-full text-xs font-semibold tracking-wider bg-emerald-400/10 text-emerald-300 border border-emerald-400/20"
-          >
-            E#
-          </motion.span>
-          
           <motion.h1 
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
