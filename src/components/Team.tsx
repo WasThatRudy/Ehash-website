@@ -19,7 +19,7 @@ interface TeamMember {
 
 const Team = () => {
   const teamMembers: TeamMember[] = [
-    { name: 'Ayush Singh', url: 'https://www.linkedin.com/in/ayush-singh-5883a1277/', title: 'Backend & MCP', bio: 'Building smart backends, seamless workflows, MCP tools, and ML solutions that turn complexity into clarity.', avatar: ayush },
+    { name: 'Ayush Singh', url: 'https://www.linkedin.com/in/ayush-singh-5883a1277/', title: 'Backend & ML', bio: 'Building smart backends, seamless workflows, MCP tools, and ML solutions that turn complexity into clarity.', avatar: ayush },
     { name: 'Bhoomi', url: 'https://www.linkedin.com/in/bhoomi-kumari-0000000000/', title: 'AI/ML & backend', bio: 'Builder of agents, trainer of models, creator of scalable backends that think and adapt.', avatar: bhoomi },
     { name: 'Dhruv Puri', url: 'https://www.linkedin.com/in/dhruvpuri-slashex/', title: 'DevOps & Cloud', bio: 'CI/CD wizard. I ship pipelines, observability, and zero‑downtime deploys.', avatar: dhruv },
     { name: 'Govind Pandey', url: 'https://www.linkedin.com/in/govindup63/', title: 'Backend & Devops', bio: 'I bend clouds, tame containers and automate everything. My systems don\'t just run, they dominate.', avatar: govind },
